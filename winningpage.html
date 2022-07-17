@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *
+    {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    html
+    {
+    width: 100%;
+    height: 100%;
+    }
+    body
+    {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(160 31 31);
+    /* display: flex; */
+    /* justify-content: center; */
+    }
+    .container
+    {
+    border: 2px solid rgb(26, 24, 24);
+    width:30%;
+    height: 45%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin :auto;
+    box-shadow: 4px 4px 20px rgb(39, 34, 34);
+    background-color: #140707;
+    display: flex;
+    flex-direction: column;;
+    }
+    .textcenter
+    {
+    text-align: center;
+    font-family: cursive;
+    color:rgb(78, 62, 218);
+    }
+    .img
+    {
+        position: relative;
+        height: 60%;
+        width:70%;
+        left:20%;
+        top:5%;
+    }
+    .score
+    {
+        width:15%;
+        height: 10%;
+        position: relative;
+        top:12%;
+        left:42%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: rgb(22, 238, 166);
+        color: black;
+        border-radius: 10px;;
+        font-size:1.3rem;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="textcenter" id="winnername">Won The Game</h1>
+        <img src="winning.gif" alt="Fire" class="img">
+        <button class="score" id="score">Score</button>
+    </div>
+</body>
+<script src="app3.js"></script>
+</html>
